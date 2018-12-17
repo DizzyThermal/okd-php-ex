@@ -205,7 +205,7 @@
       <section>
         <h2>You are currently running on:</h2>
           <ul>
-            <li>Hostname: <?php gethostname(); ?></li>
+            <li>Hostname: <?php echo gethostname(); ?></li>
           </ul>
       </section>
     </section>
