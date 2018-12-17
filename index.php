@@ -1,5 +1,3 @@
-<html>
-
-<?php echo "Test echo"; ?>
-
-</html>
+<?php
+  echo gethostname();
+?>
