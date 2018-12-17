@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>OKD PHP Example</title>
 
 <style>
   /*!
@@ -198,7 +198,7 @@
 
  <section class='container'>
   <hgroup>
-    <h1>Welcome to your static httpd application on OpenShift</h1>
+    <h1>Welcome to a OKD PHP Example running on OpenShift</h1>
   </hgroup>
   <div class="row">
     <section class='col-xs-12 col-sm-6 col-md-6'>
@@ -209,16 +209,6 @@
             <li>IP: <?php echo gethostbyname(gethostname()); ?></li>
           </ul>
       </section>
-    </section>
-    <section class="col-xs-12 col-sm-6 col-md-6">
-      <h3>For more information and help</h3>
-      <ul>
-        <li><a href="https://developers.openshift.com">Developer Center</a></li>
-        <li><a href="https://docs.openshift.com">Documentation</a></li>
-        <li><a href="https://www.openshift.com/forums/openshift">OpenShift forums</a></li>
-        <li><a href="http://stackoverflow.com/questions/tagged/openshift">Stack Overflow questions for OpenShift</a></li>
-        <li><a href="http://webchat.freenode.net/?randomnick=1&channels=openshift&uio=d4">IRC channel at #openshift on freenode.net</a></li>
-      </ul>
     </section>
   </div> 
   <footer>
