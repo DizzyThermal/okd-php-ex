@@ -206,6 +206,7 @@
         <h2>You are currently running on:</h2>
           <ul>
             <li>Hostname: <?php echo gethostname(); ?></li>
+            <li>IP: <?php echo gethostbyname(gethostname()); ?></li>
           </ul>
       </section>
     </section>
